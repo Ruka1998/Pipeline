@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: testCloud
+  m_Shader: {fileID: 4800000, guid: 5094f9818b65c1e419dc112214eaa1f9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DNormTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5cb8c7d8cb2fa3b42965fe467b96b324, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5cb8c7d8cb2fa3b42965fe467b96b324, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecNormTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CloudDir: 0.482
+    - _CloudMergeSpeed: 0.469
+    - _CloudSize: 0.51
+    - _CloudSpeed: 0.44
+    - _Cull: 2
+    - _CutOff: 0.566
+    - _Cutoff: 0.5
+    - _DLayer: 0
+    - _DNormStr: 1
+    - _DNormTilling: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmisLayer: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradColFeather: 0.5
+    - _GradColHeight: 1
+    - _GradLayer: 0
+    - _LitBackStr: -2.58
+    - _LitEdgeStr: 2.92
+    - _LitOffset: 0.1
+    - _LitStr: 3.72
+    - _MaskFeather: 1
+    - _MaskGrad: 0
+    - _MaskGradFeather: 0
+    - _MaskGradHeight: 0
+    - _MaskRange: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormGrad: 0
+    - _NormGradFeather: 0
+    - _NormGradRange: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SecLayer: 0
+    - _SecNormStr: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TaperPower: 1.45
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Col1: {r: 1, g: 1, b: 1, a: 0.16862746}
+    - _Col2: {r: 0.42168033, g: 0.65582794, b: 0.8679245, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmisCol: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GradCol: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol: {r: 1, g: 1, b: 1, a: 1}
+    - _SecCol: {r: 1, g: 1, b: 1, a: 1}
+    - _TaperPower: {r: 1.09, g: 0.94, b: 0, a: 0}
+    - _TillingSpeed1: {r: 0.23, g: 0.18, b: 0.05, a: 0.1}
+    - _TillingSpeed2: {r: 0.51, g: 0.34, b: 0, a: 0.5}
